@@ -1,6 +1,7 @@
 body{
     background-color: #858894;
     margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 #inner{
     background-image: radial-gradient(circle at top right, #0e0d0e, #a6a6a6);
@@ -38,9 +39,10 @@ h2{
 #send{
     width:280px;
     height:140px;
-    background-color:#858894;
+    background-color: black;
     border: 5px black;
     font-size: xx-large;
+    color: white;
 }
 #send:hover{
     background-color: green;
@@ -64,10 +66,13 @@ h2{
 .icns{
     padding: 3%;
     font-size: 150%;
+    color: white;
 }
 .foot{
     background-color: #0E0D0D;
     padding: 5%;
+    color: white;
+    margin-top: 10px;
 }
 nav{
     background-color: #0E0D0D;
